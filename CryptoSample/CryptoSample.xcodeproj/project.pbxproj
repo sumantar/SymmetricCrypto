@@ -40,8 +40,8 @@
 		DE0816A61732C4560098179D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		DE0816A91732C4560098179D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		DE0816B01732C4EE0098179D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		DE0816B21732E6CB0098179D /* SRSymmetricCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRSymmetricCrypto.h; sourceTree = "<group>"; };
-		DE0816B31732E6CB0098179D /* SRSymmetricCrypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRSymmetricCrypto.m; sourceTree = "<group>"; };
+		DE0816B21732E6CB0098179D /* SRSymmetricCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SRSymmetricCrypto.h; path = ../SRSymmetricCrypto.h; sourceTree = "<group>"; };
+		DE0816B31732E6CB0098179D /* SRSymmetricCrypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SRSymmetricCrypto.m; path = ../SRSymmetricCrypto.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,9 +62,6 @@
 		DE08167E1732C4540098179D = {
 			isa = PBXGroup;
 			children = (
-				DE99EFA91736316300410131 /* Conversion */,
-				DE0816B21732E6CB0098179D /* SRSymmetricCrypto.h */,
-				DE0816B31732E6CB0098179D /* SRSymmetricCrypto.m */,
 				DE0816931732C4550098179D /* CryptoSample */,
 				DE08168C1732C4550098179D /* Frameworks */,
 				DE08168A1732C4550098179D /* Products */,
@@ -93,6 +90,8 @@
 		DE0816931732C4550098179D /* CryptoSample */ = {
 			isa = PBXGroup;
 			children = (
+				DE0816B21732E6CB0098179D /* SRSymmetricCrypto.h */,
+				DE0816B31732E6CB0098179D /* SRSymmetricCrypto.m */,
 				DE08169C1732C4550098179D /* AppDelegate.h */,
 				DE08169D1732C4560098179D /* AppDelegate.m */,
 				DE0816A51732C4560098179D /* ViewController.h */,
@@ -115,13 +114,6 @@
 				DE0816A31732C4560098179D /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		DE99EFA91736316300410131 /* Conversion */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Conversion;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
